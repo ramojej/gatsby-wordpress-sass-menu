@@ -1,7 +1,7 @@
 import React from "react"
 import "normalize.css"
-import Layout from "./src/components/layout"
+import "./src/styles/main.scss"
 
 export const wrapRootElement = ({ element }) => {
-  return <Layout>{element}</Layout>
+  return <>{element}</>
 }
